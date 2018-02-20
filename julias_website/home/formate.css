@@ -1,0 +1,20 @@
+a 	{ font-size: 1em; }
+nav	{ font-size: 1.5em; text-align: right; font-family: sans-serif; }
+#logo figure	{ width: 0em; height: 0em; float: left; }
+#liste a 	{ font-size: 1.5em; font-family: sans-serif; }
+#liste li	{ list-style-type: none; overflow: auto; text-align: center; }
+#email li	{ text-align: center; list-style-type: none;}
+body		{ border:                none;
+  		  width:                 100%;
+ 		  margin:                0 auto;
+ 		  
+		
+  background: white url(img/background.jpg;) 
+              repeat-x 
+              top center 
+              fixed;
+		
+  		  
+ 		  background-attachment: scroll;}
+
+
