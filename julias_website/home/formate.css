@@ -1,41 +1,59 @@
+p	{
+font-family: sans-serif;
+line-height: 1.5em; 
+font-family: 'Anaheim', sans-serif;
+color: #GGG;
+}
+
 a 	{
 font-size: 1em;
-list-style-type: none;
+text-decoration:none;
+font-family: 'Catamaran', sans-serif;
 }
+
 nav	{
-font-size: 1.5em;
+font-size: 1em;
 text-align: right;
-font-family: sans-serif;
+font-family: 'Catamaran', sans-serif;
 flex: 1 100%
 }
+
+body		{ 
+border: none;
+max-width: 100em;
+margin: 3em;
+background-color: #AEAEAE; 
+}
+
 #logo figure	{
 width: 0em;
 height: 0em;
 float: left;
 }
+
 #liste a 	{
 font-size: 1.5em;
-font-family:
-sans-serif;
 }
+
 #liste li	{
 list-style-type: none;
 overflow: auto;
-text-align: center; }
+text-align: center; 
+}
+
 #email li	{
 text-align: center;
-list-style-type: none;}
-body		{ border:                none;
-max-width:             100em;
-margin:                0 auto;
-background-color: #AEAEAE; }
-#column2
-p	{
-font-family: sans-serif; }
+list-style-type: none;
+}
+
 #column2	{
-columns: 2 10em; column-gap: 1em; }
+columns: 2 10em; column-gap: 1em; 
+}
+
 #cloumn3	{
-columns: 2 10em; column-gap: 1em; }
+columns: 2 10em; column-gap: 1em; 
+}
+
 #footer footer {
 text-align: center;
 font-size: 1.5em;
