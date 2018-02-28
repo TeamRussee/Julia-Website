@@ -7,15 +7,11 @@ nav	{ font-size: 1.5em; text-align: right; font-family: sans-serif; flex: 1 100%
 body		{ border:                none;
   		 	  max-width:             100em;
  		      margin:                0 auto;
- 		  
-		
-  			  background-color: #AEAEAE;
-              repeat-x 
-              top center 
-              fixed;
-			  background-attachment: scroll; 
-												
-			  display: flex; flex-flow: column wrap;	}
+ 		 	  background-color: #AEAEAE; }
 
+#column2 p	{ font-family: sans-serif; }
 
+#column2	{ columns: 2 10em; column-gap: 1em; }
+#cloumn3	{ columns: 2 10em; column-gap: 1em; }           
 
+#footer footer {text-align: center; font-size: 1.5em;}
