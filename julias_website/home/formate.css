@@ -2,6 +2,14 @@ p	{
 font-family: sans-serif;
 line-height: 1.5em; 
 font-family: 'Anaheim', sans-serif;
+margin-left: 3em;
+hyphens: auto;
+}
+
+p.untertitel {
+	font-size: 0.7em;
+	margin-left: 3em;
+	
 
 }
 
@@ -9,6 +17,12 @@ h1, h2, h3 {
 font-family: 'Catamaran', sans-serif;
 letter-spacing: 0.2;	
 color: #181818;
+}
+h1 {
+font-size: 30px;
+margin-left: none;
+border: none;
+padding: none;
 }
 
 a 	{
@@ -21,7 +35,8 @@ letter-spacing: 0.3;
 
 img { 
 width: 100%; 
-height: auto 
+height: auto;
+margin: 1em 3em; 
 }
 
 
@@ -29,7 +44,7 @@ a:visited { color: blue; }
 nav a:visited { color: #181818; }
 
 nav	{
-font-size: 0.7em;
+font-size: 1em;
 text-align: right;
 font-family: 'Catamaran', sans-serif;
 flex: 1 100%;
@@ -37,23 +52,30 @@ clear: both;
 }
 
 nav a {
-	margin: 1em;
+	margin-left: 1em;
 }
 
 body		{ 
 border: none;
 max-width: 100em;
-margin: 3em;
-background-color: #F5F5F5; 
+margin: 3em 6em;
+background-color: #F5F5F5;
+
 }
 
 
 .columne2 {
-	width: 50%;
+	width: 45%;
 	display: inline;
 	box-sizing: border-box;
 	float: left;
-	margin: 2em 0;
+}
+
+.columne3 {
+	width: 25%;
+	display: inline;
+	box-sizing: border-box;
+	float: left;
 }
 
 
@@ -83,13 +105,6 @@ text-align: center;
 font-size: 0.7em;
 }
 
-#column2	{
-columns: 2 10em; column-gap: 1em; 
-}
-
-#cloumn3	{
-columns: 2 10em; column-gap: 1em; 
-}
 
 footer {
 text-align: center;
